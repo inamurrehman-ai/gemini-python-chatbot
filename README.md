@@ -5,29 +5,29 @@ A simple command-line AI chatbot built with Python using the Google Gemini API.
 Features
 
 - Interactive command-line chatbot
-- Uses Google Gemini for AI responses
-- Secure API key management with ".env"
-- Easy to run locally
-- GitHub-ready with ".gitignore"
+- Conversation memory
+- AI responses using Google Gemini
+- Secure API key management using ".env"
+- Easy local setup
 
 Technologies Used
 
 - Python
 - Google Gemini API
-- "google-genai"
-- "python-dotenv"
+- google-genai
+- python-dotenv
 - Git & GitHub
 
 Installation
 
 Clone the repository:
 
-git clone https://github.com/inamurrehman178/gemini-python-chatbot.git
+git clone https://github.com/inamurrehman-ai/gemini-python-chatbot.git
 cd gemini-python-chatbot
 
-Install the required packages:
+Install all required dependencies:
 
-pip install google-genai python-dotenv
+pip install -r requirements.txt
 
 API Key Setup
 
@@ -39,24 +39,24 @@ Never share your API key or upload the ".env" file to GitHub.
 
 Run the Chatbot
 
-Run:
-
 python main.py
 
-Then type your question:
+Example
 
-You: Hello
-Gemini: Hello! How can I help you today?
+You: My name is Inam
+Gemini: Nice to meet you, Inam!
 
-To exit the chatbot:
+You: What is my name?
+Gemini: Your name is Inam.
 
-You: exit
+Type "exit" to close the chatbot.
 
 Project Structure
 
 gemini-python-chatbot/
-│
 ├── main.py
+├── requirements.txt
+├── README.md
 ├── .gitignore
 └── .env
 
@@ -66,4 +66,4 @@ Author
 
 Inam Ur Rehman
 
-GitHub: https://github.com/inamurrehman178
+GitHub: https://github.com/inamurrehman-ai
